@@ -247,6 +247,10 @@ header{
     margin-bottom: 16px;
 }
 
+.secondary-news2-text h3:hover{
+    text-decoration: underline;
+}
+
 .secondary-news2-text h4{
     margin-top: 20px;
     font-size: 12px;
@@ -254,6 +258,14 @@ header{
 }
 
 /*Today's Picks*/
+
+.todays-picks{
+    margin-bottom: 100px;
+}
+
+.todays-picks:hover{
+    text-decoration: underline;
+}
 
 .todays-picks h2{
     font-size: 34px;
@@ -275,13 +287,199 @@ header{
 .pick-element-img{
     width: 22%;
     margin-left: 15px;
-    margin-bottom: 300px;
+    margin-bottom: 40px;
 }
 
 .pick-element-text{
     display: flex;
-    flex-direction: row;
+}
 
+.todays-picks-text{
+    font-size: 17px;
+    font-weight: bold;
+    color:white;
+    align-self: baseline;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+.todays-picks-text p:hover{
+    text-decoration: underline;
 }
 
 
+.todays-picks-text-head{
+    margin-bottom: 10px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+.todays-picks-text-head span{
+    font-weight: lighter;
+}
+
+/*Today's Picks 2nd Article*/
+
+.pick-element2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.pick-element2-img{
+   
+    height: 20%; 
+    width: 19.5%;
+    margin-left: 15px;
+}
+
+.pick-element2-text{
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    align-self: baseline;
+    margin-left: 11px;
+}
+
+.pick-element2-text-head{
+    margin-bottom: 7px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.pick-element2-text p:hover{
+    text-decoration: underline;
+}
+
+/*3rd Article*/
+
+.pick-element3{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.pick-element3-img{
+    height: 19%;
+    width: 17%;
+    margin-left: 15px;
+}
+
+.pick-element3-text{
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    align-self: baseline;
+    margin-left: 23px;
+    margin-top: 17px;
+}
+
+.pick-element3-text p:hover{
+    text-decoration: underline;
+}
+
+.pick-element3-text-head{
+    margin-bottom: 9px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+/*4th Article*/
+
+.pick-element4{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.pick-element4-img{
+    height: 22%;
+    width: 19%;
+    margin-left: 15px;
+}
+
+.pick-element4-text{
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    align-self: baseline;
+    margin-left: 14px;
+    margin-top: 4px;
+}
+
+.pick-element4-text p:hover{
+    text-decoration: underline;
+}
+
+.pick-element4-text-head{
+    margin-bottom: 9px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+/*5th article*/
+
+.pick-element5{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.pick-element5-img{
+    height: 22%;
+    width: 19.5%;
+    margin-left: 15px;
+}
+
+.pick-element5-text{
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    align-self: baseline;
+    margin-left: 14px;
+}
+
+.pick-element5-text p:hover{
+    text-decoration: underline;
+}
+
+.pick-element5-text-head{
+    margin-bottom: 9px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+/*Bottom*/
+
+.see-more{
+    margin: 1em auto;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 1em 0.5em;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    text-decoration: underline 2px #ffcc00;
+    overflow: hidden;
+    cursor: pointer;
+    background: linear-gradient(#020000, #020000 50%,#ffcc00 50%, #ffcc00);
+    background-size: 100% 200%;
+    transition: .5s; 
+}
+
+.see-more:hover{
+    background-color: #ffcc00;
+    background-position: 100% 100%;
+}
